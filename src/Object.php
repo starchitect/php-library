@@ -2,10 +2,10 @@
 
 namespace <%- vendorCode %>\<%- projectCode %>;
 
-class Class
+class Object
 {
     /**
-     * Creates a new Class instance
+     * Creates a new Object instance
      */
     public function __construct()
     {
@@ -13,11 +13,11 @@ class Class
     }
     
 	/**
-     * Does
+     * Acts
      *
      * @return boolean
      */
-    public function do()
+    public function act()
     {
         // TODO: Implement method body
 		return false;
