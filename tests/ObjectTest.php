@@ -4,30 +4,30 @@ namespace <%- vendorCode %>\<%- projectCode %>;
 
 use PHPUnit\Framework\TestCase;
 
-class ClassTest extends TestCase
+class ObjectTest extends TestCase
 {	
 
 	/**
-     * @var Class
+     * @var Object
      */
-    protected $class;
+    protected $object;
 	
 	protected function setUp()
     {
         parent::setUp();
-        $this->class = new Class();
+        $this->object = new Object();
     }
 
     public function testNewShouldSuccess()
     {
-		$actual = $this->class;
+		$actual = $this->object;
 		
         $this->assertNotNull($actual);
     }
 	
-    public function testDoShouldSuccess()
+    public function testActShouldSuccess()
     {
-		$actual = $this->class->do();
+		$actual = $this->object->act();
 
         $this->assertTrue($actual);
     }
