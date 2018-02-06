@@ -8,26 +8,34 @@ class ObjectTest extends TestCase
 {	
 
 	/**
-     * @var Object
+     * @var Object $sut system under test
      */
-    protected $object;
+    protected $sut;
+	
+    /**
+	 * @return Object system under test
+	 */
+	protected function createNew()
+	{
+	    return new Object();
+	}
 	
 	protected function setUp()
     {
         parent::setUp();
-        $this->object = new Object();
+        $this->sut = $this->createNew;
     }
 
     public function testNewShouldSuccess()
     {
-		$actual = $this->object;
+		$actual = $this->sut;
 		
         $this->assertNotNull($actual);
     }
 	
     public function testActShouldSuccess()
     {
-		$actual = $this->object->act();
+		$actual = $this->sut->act();
 
         $this->assertTrue($actual);
     }
