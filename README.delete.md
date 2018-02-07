@@ -7,4 +7,4 @@ Inspired by [thephpleague/skeleton](https://github.com/thephpleague/skeleton), [
 
 ## Licensing
 
-The name and code of the license have to correspond to values from the list (https://spdx.org/licenses/).
+The name and code of the license have to correspond to values from the list https://spdx.org/licenses/.
