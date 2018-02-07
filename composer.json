@@ -6,7 +6,7 @@
     "<%- projectCode %>"
   ],
   "homepage": "https://github.com/<%- vendorCode %>/<%- projectCode %>",
-  "license": "<%- licenseName %>",
+  "license": "<%- licenseCode %>",
   "authors": [
     {
       "name": "<%- authorName %>",
