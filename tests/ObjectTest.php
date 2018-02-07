@@ -23,7 +23,7 @@ class ObjectTest extends TestCase
 	protected function setUp()
     {
         parent::setUp();
-        $this->sut = $this->createNew;
+        $this->sut = $this->createNew();
     }
 
     public function testNewShouldSuccess()
